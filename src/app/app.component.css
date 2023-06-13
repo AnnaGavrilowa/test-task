@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.generatorBtn {
+    padding: 0.7rem 2rem;
+    margin: 1rem 0;
+    font-size: 1.1rem;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #63ca98;
+    color: #FFFFFF;
+
+    -moz-transition: .2s ease-out;
+    -o-transition: all .2s ease-out;
+    -webkit-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+}
+
+.generatorBtn:hover {
+    background-color: #36b577;
+}
+
+.generatorBtn.pending {
+    background-color: #ef8c96;
+}
+
+.pendingMsg {
+    text-align: center;
+    font-size: 1.1rem;
+}
